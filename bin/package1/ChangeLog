@@ -1,0 +1,28 @@
+ChangeLog File
+
+This file is for telling you what I've changed in the Program so far.
+
+I Created a series of tests for the student class. Some Simple getter and setter method testing.
+As well as, the Sorting function tests. There's a sort test for the last name sort, and one 
+to test if the sort function works given the last names are the the same. 
+
+Also I've changed one little itty bit of the delStudent method in the Linked list i noticed
+that when you get down to one item in the list the pointers would not point to the correct
+objects. Such as, previous would still point to the node that it would still delete.
+
+There's one additional case statement within that method to ensure the list is nullified.
+Pretty straight forward if tail and head point to the same node. Just set tail to null
+and head to null. The node is then nom nom by the garbage collector in Java. 
+
+-Ben.
+
+
+ChangeLog File 2.0
+So... this Time i've finished adding a few more buttons to GUI, making sure some of the methods work
+within the GUI panel. 
+
+Also, The Update button parses the top text fields, and finds a person based on the GNumber
+that is within the text area at the top. 
+
+So a person's information is based on the parameters gNumber in the text field at the top, and changed
+using the information using the first name fields, and last name fields.
